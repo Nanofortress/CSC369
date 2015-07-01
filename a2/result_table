@@ -1,0 +1,156 @@
+
+
+trace file:  simple
+
+memsize:  50
+
+           HitRate    HitCount   MissCount  TotalEvict  CleanEvict  DirtyEvict
+  rand     71.6555        7670        3034        2984         272        2712
+  fifo     72.1880        7727        2977        2927         204        2723
+   lru     73.9817        7919        2785        2735          89        2646
+ clock     73.8322        7903        2801        2751          97        2654
+   opt     74.9626        8024        2680        2630          29        2601
+
+memsize:  100
+
+           HitRate    HitCount   MissCount  TotalEvict  CleanEvict  DirtyEvict
+  rand     74.1125        7933        2771        2671          64        2607
+  fifo     74.2059        7943        2761        2661          44        2617
+   lru     74.8786        8015        2689        2589           2        2587
+ clock     74.8505        8012        2692        2592           3        2589
+   opt     75.3457        8065        2639        2539           0        2539
+
+memsize:  150
+
+           HitRate    HitCount   MissCount  TotalEvict  CleanEvict  DirtyEvict
+  rand     74.5422        7979        2725        2575          21        2554
+  fifo     74.5889        7984        2720        2570          16        2554
+   lru     74.9066        8018        2686        2536           0        2536
+ clock     74.8972        8017        2687        2537           0        2537
+   opt     75.3457        8065        2639        2489           0        2489
+
+memsize:  200
+
+           HitRate    HitCount   MissCount  TotalEvict  CleanEvict  DirtyEvict
+  rand     74.6357        7989        2715        2515          15        2500
+  fifo     74.6637        7992        2712        2512          12        2500
+   lru     74.9066        8018        2686        2486           0        2486
+ clock     74.8972        8017        2687        2487           0        2487
+   opt     75.3457        8065        2639        2439           0        2439
+
+
+trace file:  matmul
+
+memsize:  50
+
+           HitRate    HitCount   MissCount  TotalEvict  CleanEvict  DirtyEvict
+  rand     66.4848     1973461      994827      994777      955498       39279
+  fifo     62.0226     1841009     1127279     1127229     1083234       43995
+   lru     64.9218     1927065     1041223     1041173     1040067        1106
+ clock     64.9215     1927058     1041230     1041180     1040068        1112
+   opt     80.2086     2380823      587465      587415      586329        1086
+
+memsize:  100
+
+           HitRate    HitCount   MissCount  TotalEvict  CleanEvict  DirtyEvict
+  rand     89.0829     2644237      324051      323951      316281        7670
+  fifo     63.4956     1884731     1083557     1083457     1061230       22227
+   lru     66.0930     1961832     1006456     1006356     1005274        1082
+ clock     66.2500     1966492     1001796     1001696     1000612        1084
+   opt     96.8737     2875489       92799       92699       91615        1084
+
+memsize:  150
+
+           HitRate    HitCount   MissCount  TotalEvict  CleanEvict  DirtyEvict
+  rand     96.7449     2871668       96620       96470       94096        2374
+  fifo     98.8406     2933874       34414       34264       32947        1317
+   lru     98.8920     2935400       32888       32738       31657        1081
+ clock     98.8317     2933610       34678       34528       33446        1082
+   opt     99.1033     2941672       26616       26466       25383        1083
+
+memsize:  200
+
+           HitRate    HitCount   MissCount  TotalEvict  CleanEvict  DirtyEvict
+  rand     98.0846     2911434       56854       56654       55006        1648
+  fifo     98.8582     2934396       33892       33692       32436        1256
+   lru     98.8924     2935412       32876       32676       31595        1081
+ clock     98.8920     2935399       32889       32689       31608        1081
+   opt     99.3509     2949022       19266       19066       17983        1083
+
+
+trace file:  blocked
+
+memsize:  50
+
+           HitRate    HitCount   MissCount  TotalEvict  CleanEvict  DirtyEvict
+  rand     99.6714     2516774        8298        8248        5691        2557
+  fifo     99.7448     2518629        6443        6393        4118        2275
+   lru     99.7967     2519939        5133        5083        2748        2335
+ clock     99.7726     2519331        5741        5691        3251        2440
+   opt     99.8534     2521370        3702        3652        2568        1084
+
+memsize:  100
+
+           HitRate    HitCount   MissCount  TotalEvict  CleanEvict  DirtyEvict
+  rand     99.7930     2519844        5228        5128        3404        1724
+  fifo     99.8291     2520757        4315        4215        2734        1481
+   lru     99.8501     2521286        3786        3686        2603        1083
+ clock     99.8343     2520888        4184        4084        2608        1476
+   opt     99.8812     2522072        3000        2900        1829        1071
+
+memsize:  150
+
+           HitRate    HitCount   MissCount  TotalEvict  CleanEvict  DirtyEvict
+  rand     99.8242     2520633        4439        4289        2788        1501
+  fifo     99.8331     2520858        4214        4064        2640        1424
+   lru     99.8507     2521302        3770        3620        2558        1062
+ clock     99.8502     2521290        3782        3632        2570        1062
+   opt     99.9000     2522547        2525        2375        1300        1075
+
+memsize:  200
+
+           HitRate    HitCount   MissCount  TotalEvict  CleanEvict  DirtyEvict
+  rand     99.8484     2521244        3828        3628        2289        1339
+  fifo     99.8746     2521905        3167        2967        1868        1099
+   lru     99.8536     2521375        3697        3497        2435        1062
+ clock     99.8733     2521872        3200        3000        1938        1062
+   opt     99.9099     2522797        2275        2075        1009        1066
+
+
+trace file:  mine
+
+memsize:  50
+
+           HitRate    HitCount   MissCount  TotalEvict  CleanEvict  DirtyEvict
+  rand     99.7065      449166        1322        1272         861         411
+  fifo     99.7458      449343        1145        1095         712         383
+   lru     99.8351      449745         743         693         406         287
+ clock     99.8275      449711         777         727         433         294
+   opt     99.8941      450011         477         427         173         254
+
+memsize:  100
+
+           HitRate    HitCount   MissCount  TotalEvict  CleanEvict  DirtyEvict
+  rand     99.9003      450039         449         349         114         235
+  fifo     99.9094      450080         408         308          73         235
+   lru     99.9305      450175         313         213          31         182
+ clock     99.9281      450164         324         224          37         187
+   opt     99.9465      450247         241         141           2         139
+
+memsize:  150
+
+           HitRate    HitCount   MissCount  TotalEvict  CleanEvict  DirtyEvict
+  rand     99.9296      450171         317         167          21         146
+  fifo     99.9456      450243         245          95           0          95
+   lru     99.9501      450263         225          75           0          75
+ clock     99.9498      450262         226          76           0          76
+   opt     99.9501      450263         225          75           0          75
+
+memsize:  200
+
+           HitRate    HitCount   MissCount  TotalEvict  CleanEvict  DirtyEvict
+  rand     99.9432      450232         256          56           3          53
+  fifo     99.9492      450259         229          29           0          29
+   lru     99.9501      450263         225          25           0          25
+ clock     99.9496      450261         227          27           0          27
+   opt     99.9501      450263         225          25           0          25
